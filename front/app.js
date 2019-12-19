@@ -67,7 +67,7 @@ function breakIntoPayload() {
 
 
     let xhr = new XMLHttpRequest();
-    let url = "http://localhost:3000/add";
+    let url = "https://brailleprinter-api.herokuapp.com/add";
 
     xhr.open("POST", url, true);
 

@@ -6,8 +6,6 @@ This repository contains only the Front-end application that convert ASCII text 
 
 ## How it works
 ##### Front-end Application
-* We made a simple app to input the ASCII text to be converted => See the [app repository](https://github.com/pportella23/BPrinter-Frontend) for detail
-##### API System
 The app has a file called ```dictionary.js``` which contains the alphabet used to translate the texts and all the logic needed to perform the translation. In addition, the repository has a folder called ```front``` with files used to mount the application. Are they:  
 ```
 app.js
@@ -17,6 +15,8 @@ This file has all the logic used to handle text that has been converted to brail
 index.html
 ```
 This file is used to create the page that will be available to insert the ASCII text and convert it. It's quite simple, just a box and a button.
+##### API System
+* We made a simple API to set up routes to send converted text to the printer => See the [API repository](https://github.com/pportella23/nodejs-api) for detail
 
 ## Considerations
 See that the conversion logic and the treatment of the text is done here. After that, the finished result is sent via request to API.

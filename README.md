@@ -22,7 +22,7 @@ This file is used to create the page that will be available to insert the ASCII 
 See that the conversion logic and the treatment of the text is done here. After that, the finished result is sent via request to API.
 
 ## Testing
-I deployed the app in the Github pages, so it's accessible by the link: [https://pportella23.github.io/brailleprinter-frontend/front/](https://pportella23.github.io/brailleprinter-frontend/front/)
+I deployed the app in the Github pages, so it's accessible by the link: [https://pportella23.github.io/braille-frontend-app/front/](https://pportella23.github.io/braille-frontend-app/front/)
 
 OBS: All you have to do is type the text in the box and press the button. :)
 
